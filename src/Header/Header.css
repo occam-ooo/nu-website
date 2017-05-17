@@ -1,0 +1,12 @@
+.Header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    border: 5px solid pink;
+    
+  
+}
+
+.Header-socialnetwork {
+    flex-direction: column;
+}
