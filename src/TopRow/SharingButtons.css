@@ -1,9 +1,9 @@
 .SharingButtons-container{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center
+    justify-content: center;
 }
 
 .SharingButtons-appstore-ios, .SharingButtons-appstore-android{
-    align-self: center
+    align-self: center;
 }

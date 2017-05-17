@@ -1,0 +1,12 @@
+.Main-container {
+    /*border: 5px solid green;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align items in Main Axis */
+    align-items: stretch;
+    /* align items in Cross Axis */
+    align-content: stretch;
+    /* Extra space in Cross Axis */
+
+}

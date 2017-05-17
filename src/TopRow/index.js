@@ -9,8 +9,10 @@ export default class TopRow extends Component {
       <div className="TopRow-container">
         <div className="TopRow-row1">
           <div className="TopRow-row1-left">
-            <span className="TopRow-name">Nu</span>
-            <span className="TopRow-slogan">Events. Today.</span>
+            <h1 className="TopRow-name">
+              Nu
+            </h1>
+            <h2 className="TopRow-slogan">Events. Today.</h2>
             <SharingButtons />
           </div>
           <div className="TopRow-row1-right">

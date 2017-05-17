@@ -1,24 +1,32 @@
-.TopRow-container {}
+.TopRow-container {
+    /*border: 4px solid yellow;*/
+    /*margin-top: 100px;*/
+    background-color: #F8F8F8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 .TopRow-row1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 450px;
+    /*height: 450px;*/
 }
 
 .TopRow-row1-right,
 .TopRow-row1-left {
     width: 350px;
-    min-height: 350px;
+    /*min-height: 350px;*/
+    /*border: 1px solid black;*/
 }
 
 .TopRow-row1-right-image {
-    height: 100%;
+    /*height: 100%;*/
+    /*border: 1px dotted green;*/
 }
 
 .TopRow-row1-right-image img {
-    object-fit: contain;
+    /*object-fit: contain;*/
 }
 
 .TopRow-row1-left,
@@ -30,15 +38,22 @@
 }
 
 .TopRow-name {
+    /*padding-top: 100px;*/
     font-size: 8rem;
     height: 100px;
     font-weight: 200;
-    color: #212121;
+    color: #0091EA;
+    line-height: 0;
+    margin: 0;
+    /*padding: 0;*/
 }
 
 .TopRow-slogan {
     font-size: 3rem;
-    height: 100px;
+    height: 190px;
     font-weight: 300;
     color: #757575;
+    line-height: 0;
+    margin: 0;
+    /*padding-top: 100px;*/
 }
