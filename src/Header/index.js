@@ -34,6 +34,11 @@ export default class Header extends Component {
                             <Icon name="twitter square" size="large" />
                         </a>
                     </div>
+                    <div className="Header-sharing-socialnetwork">
+                        <a href="https://nueventstoday.tumblr.com/">
+                            <Icon name="tumblr square" size="large" />
+                        </a>
+                    </div>
 
                 </div>
             </div>
