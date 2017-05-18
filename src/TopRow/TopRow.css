@@ -33,27 +33,34 @@
 .TopRow-row1-right {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    border: 1px dashed pink;
+    justify-content: center;
     text-align: center;
+    /*align-content: center;*/
 }
 
 .TopRow-name {
-    /*padding-top: 100px;*/
+    /*padding-top: 100px;*/ 
+    /*align-self: center;*/
     font-size: 8rem;
     height: 100px;
+    /*vertical-align: middle;*/
     font-weight: 200;
     color: #0091EA;
-    line-height: 0;
+    line-height: 1;
     margin: 0;
+    /*flex-grow: 1;*/
+    /*border: 1px solid green;*/
     /*padding: 0;*/
 }
 
 .TopRow-slogan {
     font-size: 3rem;
-    height: 190px;
+    height: 100px;
     font-weight: 300;
     color: #757575;
-    line-height: 0;
+    line-height: 1;
     margin: 0;
+    /*border: 1px solid yellow;*/
     /*padding-top: 100px;*/
 }
