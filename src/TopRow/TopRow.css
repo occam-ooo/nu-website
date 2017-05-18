@@ -54,3 +54,9 @@
     line-height: 1;
     margin: 0;
 }
+
+.TopRow-info {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #bdbdbd;
+}

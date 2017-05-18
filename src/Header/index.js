@@ -10,16 +10,31 @@ export default class Header extends Component {
                     <p>
                         Made with
                         <Icon className="love" name="heart" />
-                        by an indie developer.
+                        by an
+                        {' '}
+                        <a href="https://www.pedromadruga.com/">
+                            {' '}indie developer{' '}
+                        </a>
+                        .
                     </p>
                 </div>
                 <div className="Header-sharing-container">
-                    <div className="Header-sharing-socialnetwork debug">
-                        <Icon name="facebook square" size="large" />
+                    <div className="Header-sharing-socialnetwork">
+                        <a href="https://www.instagram.com/nueventstoday/">
+                            <Icon name="instagram square" size="large" />
+                        </a>
                     </div>
-                    <div className="Header-sharing-socialnetwork debug">
-                        <Icon name="twitter square" size="large" />
+                    <div className="Header-sharing-socialnetwork">
+                        <a href="https://www.facebook.com/nutodaysevents">
+                            <Icon name="facebook square" size="large" />
+                        </a>
                     </div>
+                    <div className="Header-sharing-socialnetwork">
+                        <a href="https://twitter.com/nueventstoday">
+                            <Icon name="twitter square" size="large" />
+                        </a>
+                    </div>
+
                 </div>
             </div>
         );
