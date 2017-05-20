@@ -1,7 +1,6 @@
 .About-container {
     margin-top: 10%;
-    /*min-height: 350px;*/
-    /*border: 4px solid yellow*/
+    min-height: 100vh;
 }
 
 .About-title {

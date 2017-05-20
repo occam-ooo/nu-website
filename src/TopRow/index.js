@@ -14,7 +14,7 @@ export default class TopRow extends Component {
             </h1>
             <h2 className="TopRow-slogan">Events. Today.</h2>
             <h3 className="TopRow-info">
-              We started with Copenhagen. Next? The World!
+              We started with Copenhagen. Next? The world!
             </h3>
             <SharingButtons />
           </div>
