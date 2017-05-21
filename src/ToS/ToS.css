@@ -1,0 +1,12 @@
+.ToS-container{
+    padding: 5%;
+}
+
+.ToS-container h2 {
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+
+.ToS-container h3 {
+    color: #212121;
+}
