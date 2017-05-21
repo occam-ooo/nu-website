@@ -21,7 +21,7 @@ export default class Header extends Component {
                 <div className="Header-sharing-container">
                     <div className="Header-sharing-socialnetwork">
                         <a href="https://www.instagram.com/nueventstoday/">
-                            <Icon name="instagram square" size="large" />
+                            <Icon name="instagram" size="large" />
                         </a>
                     </div>
                     <div className="Header-sharing-socialnetwork">

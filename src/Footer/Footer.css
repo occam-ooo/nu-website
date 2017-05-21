@@ -3,4 +3,18 @@
     background-color: #212121;
     color: white;
     font-family: Helvetica Neue, Lato;
+    
+}
+
+.Footer-container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Footer-container ul li, .Footer-container ul li a {
+    color: #f8f8f8;
+    font-size: 18px;
+    font-weight: 200;
 }

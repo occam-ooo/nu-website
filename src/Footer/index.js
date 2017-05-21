@@ -2,14 +2,21 @@ import React, { Component } from 'react';
 import './Footer.css';
 
 export default class Footer extends Component {
+  renderCopyRightYear() {
+    return new Date().getFullYear();
+  }
+
   render() {
     return (
       <div className="Footer-container">
         <ul>
-          <li>Home</li>
+          <li>
+            <a href="https://occam.ooo">
+              (c) Occam (Denmark). {this.renderCopyRightYear()}
+            </a>
+          </li>
           <li>Terms and Conditions</li>
           <li>Privacy Policy</li>
-          <li>About</li>
         </ul>
       </div>
     );
