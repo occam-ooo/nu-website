@@ -12,7 +12,10 @@ export default class Footer extends Component {
         <ul>
           <li>
             <a href="https://occam.ooo">
-              (c) Occam (Denmark). {this.renderCopyRightYear()}
+              (c) Occam (Denmark).
+              {' '}
+              {this.renderCopyRightYear()}
+              . All rights reserved.
             </a>
           </li>
           <li>Terms and Conditions</li>
