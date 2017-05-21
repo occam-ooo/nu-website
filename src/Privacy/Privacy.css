@@ -1,8 +1,12 @@
 .Privacy-container{
-    margin: 5%;
+    padding: 5%;
 }
 
 .Privacy-container h2 {
     margin-top: 50px;
     border-top: 1px solid black;
+}
+
+.Privacy-container h3 {
+    color: #212121;
 }
