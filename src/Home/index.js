@@ -4,12 +4,12 @@ import TopRow from '../TopRow';
 import About from '../About';
 import Footer from '../Footer';
 
-import './Main.css';
+import './Home.css';
 
-export default class Main extends Component {
+export default class Home extends Component {
     render() {
         return (
-            <div className="Main-container">
+            <div className="Home-container">
                 <Header /><TopRow /><About /><Footer />
             </div>
         );
