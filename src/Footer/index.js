@@ -12,6 +12,10 @@ export default class Footer extends Component {
     return (
       <div className="Footer-container">
         <ul>
+          <li><Link to="/">Home</Link></li>
+
+          <li><Link to="/tos">Terms and Conditions</Link></li>
+          <li><Link to="/privacy">Privacy Policy</Link></li>
           <li>
             <a href="https://occam.ooo">
               (c) Occam (Denmark).
@@ -20,8 +24,6 @@ export default class Footer extends Component {
               . All rights reserved.
             </a>
           </li>
-          <li><Link to="/tos">Terms and Conditions</Link></li>
-          <li><Link to="/privacy">Privacy Policy</Link></li>
         </ul>
       </div>
     );

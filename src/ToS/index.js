@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from '../Footer';
 
 import './ToS.css';
 
@@ -76,7 +77,7 @@ export default class ToS extends Component {
         <h2>8. Governing Law</h2>
 
         These terms and conditions are governed by and construed in accordance with the laws of Denmark and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.
-
+        <Footer />
       </div>
     );
   }

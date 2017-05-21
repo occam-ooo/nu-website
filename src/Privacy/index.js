@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Footer from '../Footer';
 import './Privacy.css';
 
 export default class Privacy extends Component {
@@ -483,6 +484,8 @@ export default class Privacy extends Component {
           <p> Latest update: May 21, 2017 </p>
           {' '}
         </div>
+
+        <Footer />
 
       </div>
     );
