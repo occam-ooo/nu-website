@@ -53,8 +53,9 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "deploy": "git push && npm run build && firebase deploy",
-    "lint": "./node_modules/.bin/eslint src --fix"
+    "deploy": "npm run lint && npm run csscomb && git push && npm run build && firebase deploy",
+    "lint": "./node_modules/.bin/eslint src --fix",
+    "csscomb": "csscomb src/"
   },
   "jest": {
     "collectCoverageFrom": [

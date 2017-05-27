@@ -1,63 +1,63 @@
 .TopRow-container {
-    /*border: 4px solid yellow;*/
-    /*margin-top: 100px;*/
-    background-color: #F8F8F8;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    min-height: 100vh;
+  min-height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /*border: 4px solid yellow;*/
+  /*margin-top: 100px;*/
+  background-color: #f8f8f8;
 }
 
 .TopRow-row1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /*height: 450px;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*height: 450px;*/
 }
 
 .TopRow-row1-right,
 .TopRow-row1-left {
-    width: 350px;
-    /*min-height: 350px;*/
-    /*border: 1px solid black;*/
+  width: 350px;
+  /*min-height: 350px;*/
+  /*border: 1px solid black;*/
 }
 
 .TopRow-row1-right-image {
-    /*height: 100%;*/
-    /*border: 1px dotted green;*/
+  /*height: 100%;*/
+  /*border: 1px dotted green;*/
 }
 
 .TopRow-row1-right-image img {
-    /*object-fit: contain;*/
+  /*object-fit: contain;*/
 }
 
 .TopRow-row1-left,
 .TopRow-row1-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .TopRow-name {
-    font-size: 8rem;
-    height: 100px;
-    font-weight: 200;
-    color: #0091EA;
-    line-height: 1;
-    margin: 0;
+  height: 100px;
+  margin: 0;
+  color: #0091ea;
+  font-size: 8rem;
+  font-weight: 200;
+  line-height: 1;
 }
 
 .TopRow-slogan {
-    font-size: 3rem;
-    height: 100px;
-    font-weight: 200;
-    color: #757575;
-    line-height: 1;
-    margin: 0;
+  height: 100px;
+  margin: 0;
+  color: #757575;
+  font-size: 3rem;
+  font-weight: 200;
+  line-height: 1;
 }
 
 .TopRow-info {
-    font-size: 2rem;
-    font-weight: 200;
-    color: #bdbdbd;
+  color: #bdbdbd;
+  font-size: 2rem;
+  font-weight: 200;
 }

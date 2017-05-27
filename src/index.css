@@ -1,10 +1,10 @@
 html,
 body {
-    font-family: Helvetica Neue, Lato;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue, Lato;
 }
 
 h1,
@@ -12,9 +12,9 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: Helvetica Neue, Lato;
+  font-family: Helvetica Neue, Lato;
 }
 
 .debug {
-    border: 1px solid black;
+  border: 1px solid black;
 }
