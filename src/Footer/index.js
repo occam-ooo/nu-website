@@ -16,9 +16,9 @@ export default class Footer extends Component {
 
           <li><Link to="/tos">Terms and Conditions</Link></li>
           <li><Link to="/privacy">Privacy Policy</Link></li>
-          <li>
+          <li className='Footer-copyright'>
             <a href="https://occam.ooo">
-              (c) Occam (Denmark).
+              (c) Occam.ooo (Denmark).
               {' '}
               {this.renderCopyRightYear()}
               . All rights reserved.
