@@ -23,6 +23,13 @@ export default class About extends Component {
                         We have started with Copenhagen, but don't worry, your city will be included in a snap!
                     </p>
                 </Container>
+
+                 <Container className="About-container-text-wrapper">
+                    <h3 className="About-title">Found a bug?</h3>
+                    <p className="About-text">
+                        Send me an email to <a href='mailto:hello@occam.ooo?subject=Found a bug in Nu'>hello at occam dot ooo</a> and I will be restless and sleepless until all is good in the world. 
+                    </p>
+                </Container>
             </div>
         );
     }
