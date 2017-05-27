@@ -8,15 +8,15 @@ export default class Header extends Component {
       <div className='Header-container'>
         <div className='Header-with-love'>
           <p>
-                        Made with
-                        <Icon className='love' name='heart' />
-                        by an
-                        {' '}
+            Made with
+            <Icon className='love' name='heart' />
+            by an
+            {' '}
             <a href='https://www.pedromadruga.com/'>
               {' '}indie developer{' '}
             </a>
-                        .
-                    </p>
+            .
+          </p>
         </div>
         <div className='Header-sharing-container'>
           <div className='Header-sharing-socialnetwork'>
