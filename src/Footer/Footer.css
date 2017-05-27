@@ -1,36 +1,35 @@
 .Footer-container {
-    margin-top: 10%;
-    background-color: #212121;
-    color: white;
-    font-family: Helvetica Neue, Lato;
+  margin-top: 10%;
+  background-color: #212121;
+  color: white;
+  font-family: Helvetica Neue, Lato;
 }
 
 .Footer-container ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.Footer-container ul li, .Footer-container ul li a {
-    color: #f8f8f8;
-    /*align-self: center;*/
-    font-size: 18px;
-    font-weight: 200;
-    padding: 15px;
-    /*border: 1px solid green;*/
+.Footer-container ul li,
+.Footer-container ul li a {
+  padding: 15px;
+  color: #f8f8f8;
+  /*align-self: center;*/
+  font-size: 18px;
+  font-weight: 200;
+  /*border: 1px solid green;*/
 }
 
 .Footer-copyright {
-    align-self: center;
-    
+  align-self: center;
 }
 
 .Footer-copyright a {
-    color: #bdbdbd !important;
-    font-size: 14px !important;
-    
+  color: #bdbdbd !important;
+  font-size: 14px !important;
 }

@@ -10,7 +10,7 @@ export default class ToS extends Component {
 
   render() {
     return (
-      <div className="ToS-container">
+      <div className='ToS-container'>
         <h1>Terms of Service of <strong>Nu - Events. Today.</strong></h1>
 
         <h2>Owner</h2>

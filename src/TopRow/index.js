@@ -6,21 +6,21 @@ import image from './web_cph.png';
 export default class TopRow extends Component {
   render() {
     return (
-      <div className="TopRow-container">
-        <div className="TopRow-row1">
-          <div className="TopRow-row1-left">
-            <h1 className="TopRow-name">
+      <div className='TopRow-container'>
+        <div className='TopRow-row1'>
+          <div className='TopRow-row1-left'>
+            <h1 className='TopRow-name'>
               Nu
             </h1>
-            <h2 className="TopRow-slogan">Events. Today.</h2>
-            <h3 className="TopRow-info">
+            <h2 className='TopRow-slogan'>Events. Today.</h2>
+            <h3 className='TopRow-info'>
               We started with Copenhagen. Next? The world!
             </h3>
             <SharingButtons />
           </div>
-          <div className="TopRow-row1-right">
-            <div className="TopRow-row1-right-image">
-              <img alt="screenshot" src={image} />
+          <div className='TopRow-row1-right'>
+            <div className='TopRow-row1-right-image'>
+              <img alt='screenshot' src={image} />
             </div>
           </div>
         </div>

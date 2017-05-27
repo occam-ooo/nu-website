@@ -10,7 +10,7 @@ export default class Privacy extends Component {
 
   render() {
     return (
-      <div className="Privacy-container">
+      <div className='Privacy-container'>
 
         <div>
           {' '}
@@ -102,15 +102,15 @@ export default class Privacy extends Component {
             For more information about the following permissions, refer to the
             {' '}
             <a
-              href="https://developers.facebook.com/docs/authentication/permissions/"
-              target="_blank"
+              href='https://developers.facebook.com/docs/authentication/permissions/'
+              target='_blank'
             >
               Facebook permissions documentation
             </a>
             {' '}
             and to the
             {' '}
-            <a href="https://www.facebook.com/about/privacy/" target="_blank">
+            <a href='https://www.facebook.com/about/privacy/' target='_blank'>
               Facebook privacy policy
             </a>
             .
@@ -165,7 +165,7 @@ export default class Privacy extends Component {
             {' '}
             Place of processing: US –
             {' '}
-            <a href="https://www.facebook.com/policy.php" target="_blank">
+            <a href='https://www.facebook.com/policy.php' target='_blank'>
               Privacy Policy
             </a>
             {' '}
@@ -194,8 +194,8 @@ export default class Privacy extends Component {
             Place of processing: US –
             {' '}
             <a
-              href="https://www.google.com/policies/technologies/ads/"
-              target="_blank"
+              href='https://www.google.com/policies/technologies/ads/'
+              target='_blank'
             >
               Privacy Policy
             </a>
@@ -224,8 +224,8 @@ export default class Privacy extends Component {
             Place of processing: US –
             {' '}
             <a
-              href="https://www.google.com/intl/en/policies/privacy/"
-              target="_blank"
+              href='https://www.google.com/intl/en/policies/privacy/'
+              target='_blank'
             >
               Privacy Policy
             </a>
@@ -233,8 +233,8 @@ export default class Privacy extends Component {
             –
             {' '}
             <a
-              href="https://tools.google.com/dlpage/gaoptout?hl=en"
-              target="_blank"
+              href='https://tools.google.com/dlpage/gaoptout?hl=en'
+              target='_blank'
             >
               Opt Out
             </a>
@@ -257,7 +257,7 @@ export default class Privacy extends Component {
             {' '}
             Place of processing: US –
             {' '}
-            <a href="https://www.facebook.com/about/privacy/" target="_blank">
+            <a href='https://www.facebook.com/about/privacy/' target='_blank'>
               Privacy Policy
             </a>
             {' '}
@@ -283,7 +283,7 @@ export default class Privacy extends Component {
             {' '}
             Place of processing: US –
             {' '}
-            <a href="https://www.google.com/intl/en/privacy/" target="_blank">
+            <a href='https://www.google.com/intl/en/privacy/' target='_blank'>
               Privacy Policy
             </a>
             {' '}
@@ -305,7 +305,7 @@ export default class Privacy extends Component {
             {' '}
             Place of processing: US –
             {' '}
-            <a href="https://www.google.com/intl/en/privacy/" target="_blank">
+            <a href='https://www.google.com/intl/en/privacy/' target='_blank'>
               Privacy Policy
             </a>
             {' '}
@@ -337,8 +337,8 @@ export default class Privacy extends Component {
             Place of processing: US –
             {' '}
             <a
-              href="https://www.facebook.com/help/405977429438260"
-              target="_blank"
+              href='https://www.facebook.com/help/405977429438260'
+              target='_blank'
             >
               Privacy Policy
             </a>
@@ -351,8 +351,8 @@ export default class Privacy extends Component {
             This Application uses Cookies. To learn more and for a detailed cookie notice, you may consult the
             {' '}
             <a
-              href="//www.iubenda.com/private/privacy-policy/855088/cookie-policy"
-              title="Cookie Policy"
+              href='//www.iubenda.com/private/privacy-policy/855088/cookie-policy'
+              title='Cookie Policy'
             >
               Cookie Policy
             </a>

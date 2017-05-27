@@ -1,12 +1,11 @@
 .Home-container {
-    /*border: 5px solid green;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    /* align items in Main Axis */
-    align-items: stretch;
-    /* align items in Cross Axis */
-    align-content: stretch;
-    /* Extra space in Cross Axis */
-
+  /*border: 5px solid green;*/
+  display: flex;
+  flex-direction: column;
+  /* align items in Cross Axis */
+  align-content: stretch;
+  /* align items in Main Axis */
+  align-items: stretch;
+  justify-content: flex-start;
+  /* Extra space in Cross Axis */
 }

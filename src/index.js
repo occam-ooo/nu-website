@@ -10,13 +10,13 @@ import 'semantic-ui-css/semantic.min.css';
 import './index.css';
 
 const Index = () => (
-    <Router>
-        <div>
-            <Route exact path="/" component={Home} />
-            <Route path="/tos" component={ToS} />
-            <Route path="/privacy" component={Privacy} />
-        </div>
-    </Router>
+  <Router>
+    <div>
+      <Route exact path='/' component={Home} />
+      <Route path='/tos' component={ToS} />
+      <Route path='/privacy' component={Privacy} />
+    </div>
+  </Router>
 );
 
 ReactDOM.render(<Index />, document.getElementById('root'));
