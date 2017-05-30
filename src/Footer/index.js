@@ -23,6 +23,9 @@ export default class Footer extends Component {
               {this.renderCopyRightYear()}
               . All rights reserved.
             </a>
+            <a href='https://github.com/occam-ooo/nu-website'>
+              Source code.
+            </a>
           </li>
         </ul>
       </div>

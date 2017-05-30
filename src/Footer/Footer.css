@@ -26,7 +26,11 @@
 }
 
 .Footer-copyright {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   align-self: center;
+  justify-content: space-around;
 }
 
 .Footer-copyright a {
